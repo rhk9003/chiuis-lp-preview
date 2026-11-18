@@ -1,0 +1,90 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CHIUIS 富特固 FORTIGEL® 單方膠原胜肽｜改版預覽</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#111;--blue:#2E4FC9;--paper:#fff;--mute:#5f5f5f;--cap:#f1f1f1}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#e9e9e9;color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.6}
+.cx-page{max-width:640px;margin:0 auto;background:var(--paper);overflow:clip}
+.cx-site{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;background:#111;color:#fff;font-size:12px;letter-spacing:.08em}
+.cx-site strong{font-size:20px;letter-spacing:.12em;font-weight:900}
+.cx-note{margin:0;padding:12px 18px;background:#fff6c7;font-size:14px;line-height:1.55}
+.cx-sec{margin:0}
+.cx-sec img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;background:#f4f4f4}
+.cx-cap{margin:0;padding:12px 18px 16px;background:var(--cap);font-size:14px;color:#333;border-top:4px solid var(--accent)}
+.cx-cap b{display:block;font-size:12px;letter-spacing:.06em;color:var(--mute);margin-bottom:4px}
+.cx-cap p{margin:0;display:inline}
+.cx-cap p+p::before{content:"／";color:#999;margin:0 2px}
+.cx-band{padding:36px 18px 40px}
+.cx-band h2{margin:0 0 6px;font-size:30px;line-height:1.25;font-weight:900;letter-spacing:.01em}
+.cx-band .cx-lead{margin:0 0 20px;font-size:16px;color:#333}
+.cx-buy{background:var(--accent)}
+.cx-buy h2,.cx-buy .cx-lead{color:var(--on)}
+.cx-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.cx-card{background:#fff;display:flex;flex-direction:column;color:var(--ink);text-decoration:none}
+.cx-card img{display:block;width:100%;aspect-ratio:1;object-fit:cover}
+.cx-card .cx-body{padding:10px 10px 12px;display:flex;flex-direction:column;gap:2px;flex:1}
+.cx-tag{align-self:flex-start;background:#111;color:#fff;font-size:12px;font-weight:700;padding:2px 8px}
+.cx-card h3{margin:6px 0 0;font-size:15px;line-height:1.3;font-weight:900}
+.cx-price{font-size:22px;font-weight:900;line-height:1.2;margin-top:4px}
+.cx-price s{display:block;font-size:13px;font-weight:400;color:#888}
+.cx-card p{margin:4px 0 10px;font-size:13px;color:#444;line-height:1.45;flex:1}
+.cx-btn{display:block;text-align:center;font-weight:900;font-size:15px;padding:11px 6px;background:#111;color:#fff;
+  box-shadow:0 5px 0 #000;transform:translateY(0);transition:transform .12s,box-shadow .12s;position:relative;overflow:hidden}
+.cx-btn::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.35) 50%,transparent 70%);
+  transform:translateX(-120%);animation:cx-sheen 3.6s ease-in-out infinite}
+.cx-card:hover .cx-btn,.cx-card:active .cx-btn{transform:translateY(4px);box-shadow:0 1px 0 #000}
+@keyframes cx-sheen{0%,60%{transform:translateX(-120%)}85%,100%{transform:translateX(120%)}}
+.cx-faq{background:#fff}
+.cx-faq details{border-top:3px solid #111;padding:14px 0}
+.cx-faq details:last-child{border-bottom:3px solid #111}
+.cx-faq summary{font-size:18px;font-weight:900;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.cx-faq summary::-webkit-details-marker{display:none}
+.cx-faq summary::after{content:"+";font-size:24px;line-height:1;color:var(--blue)}
+.cx-faq details[open] summary::after{content:"−"}
+.cx-faq details p{margin:8px 0 0;font-size:16px;color:#333}
+.cx-read{background:var(--blue);color:#fff}
+.cx-read h2{color:#fff}
+.cx-arts{display:grid;gap:12px}
+.cx-art{display:grid;grid-template-columns:132px 1fr;gap:12px;align-items:center;background:#fff;color:#111;text-decoration:none}
+.cx-art img{display:block;width:132px;height:100%;aspect-ratio:1200/630;object-fit:cover}
+.cx-art span{font-size:15px;font-weight:700;line-height:1.4;padding:10px 12px 10px 0}
+.cx-warn{margin:0;padding:18px;font-size:13px;color:#555;background:#fff}
+.cx-foot{padding:18px;background:#111;color:#bbb;font-size:12px}
+@media (max-width:420px){.cx-cards{grid-template-columns:repeat(2,1fr)}.cx-card:last-child{grid-column:1/-1;display:grid;grid-template-columns:46% 1fr;align-items:center}
+  .cx-card:last-child img{height:auto;aspect-ratio:1;object-fit:contain}}
+@supports (animation-timeline: view()){
+  .cx-sec img,.cx-card,.cx-art{animation:cx-rise linear both;animation-timeline:view();animation-range:entry 0% entry 40%}
+}
+@keyframes cx-rise{from{opacity:.2;transform:translateY(28px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style><meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="review.css"><script defer src="review-core.js"></script><script defer src="review.js"></script>
+<style>
+#copy-review-root{--review-blue:#2E4FC9;--review-line:#d9def5}
+#copy-review-root .review-launcher{background:#2E4FC9!important;border-color:#2E4FC9!important;color:#fff!important}
+mark.review-mark{background:#f6eab8!important;color:inherit}
+body.review-active [data-copy-id]:hover{outline:2px solid #2E4FC9;outline-offset:2px}
+body.review-active .cx-btn[data-copy-id]{background-color:#111!important}
+.cx-cap p[data-copy-id]{cursor:text}
+</style>
+</head>
+<body data-review-page="chiuis-fortigel" data-review-revision="chiuis-fortigel-2026-11-18a" data-review-title="CHIUIS 富特固銷售頁"><main class="cx-page" style="--accent:#EEA12F;--on:#111111">
+<header class="cx-site"><strong>CHIUiS</strong><span>官網頁首（示意）</span></header>
+<p class="cx-note">這是 /pages/fortigel 改版預覽。每張圖下方的灰框是「圖上的文字」，要改字請框選灰框裡的字；選購以下是網頁文字，也可以直接框選。</p>
+<figure class="cx-sec"><img src="img/sec/f1_hero.jpg" alt="CHIUIS 富特固除了二型膠原和葡萄糖胺，還有另一種選擇。另一種選擇是 FORTIGEL®" width="1080" height="1350" loading="lazy"><figcaption class="cx-cap"><b>圖上文字｜首屏</b><p data-copy-id="copy-001" data-copy-label="首屏">CHIUIS 富特固</p><p data-copy-id="copy-002" data-copy-label="首屏">除了二型膠原和葡萄糖胺，</p><p data-copy-id="copy-003" data-copy-label="首屏">還有另一種選擇。</p><p data-copy-id="copy-004" data-copy-label="首屏">另一種選擇是 FORTIGEL®</p><p data-copy-id="copy-005" data-copy-label="首屏">每天 5 克</p><p data-copy-id="copy-006" data-copy-label="首屏">一包 60 天</p><p data-copy-id="copy-007" data-copy-label="首屏">每天約 33 元</p></figcaption></figure>
+<figure class="cx-sec"><img src="img/sec/f2_why.jpg" alt="為什麼是它？它不是通用的膠原胜肽酵素的切法不同，切出來的胜肽組合就不同" width="1080" height="1350" loading="lazy"><figcaption class="cx-cap"><b>圖上文字｜為什麼是它</b><p data-copy-id="copy-008" data-copy-label="為什麼是它">為什麼是它？</p><p data-copy-id="copy-009" data-copy-label="為什麼是它">它不是通用的膠原胜肽</p><p data-copy-id="copy-010" data-copy-label="為什麼是它">酵素的切法不同，</p><p data-copy-id="copy-011" data-copy-label="為什麼是它">切出來的胜肽組合就不同</p><p data-copy-id="copy-012" data-copy-label="為什麼是它">德國原料廠 GELITA</p><p data-copy-id="copy-013" data-copy-label="為什麼是它">為特定用途開發的專利原料</p></figcaption></figure>
+<figure class="cx-sec"><img src="img/sec/f3_dose.jpg" alt="每天的份量差很多UC-II（非變性二型膠原）常見每天 40 毫克葡萄糖胺" width="1080" height="1350" loading="lazy"><figcaption class="cx-cap"><b>圖上文字｜份量不能直接比</b><p data-copy-id="copy-014" data-copy-label="份量不能直接比">每天的份量差很多</p><p data-copy-id="copy-015" data-copy-label="份量不能直接比">UC-II（非變性二型膠原）</p><p data-copy-id="copy-016" data-copy-label="份量不能直接比">常見每天 40 毫克</p><p data-copy-id="copy-017" data-copy-label="份量不能直接比">葡萄糖胺</p><p data-copy-id="copy-018" data-copy-label="份量不能直接比">常見每天 1,500 毫克</p><p data-copy-id="copy-019" data-copy-label="份量不能直接比">FORTIGEL®</p><p data-copy-id="copy-020" data-copy-label="份量不能直接比">每天 5 克</p><p data-copy-id="copy-021" data-copy-label="份量不能直接比">東西不同，不能直接比數字</p><p data-copy-id="copy-022" data-copy-label="份量不能直接比">各看各的建議份量</p></figcaption></figure>
+<figure class="cx-sec"><img src="img/sec/f4_ingredient.jpg" alt="想吃的，就是膠原蛋白本身成分只有水解膠原蛋白單方・無添加" width="1080" height="1350" loading="lazy"><figcaption class="cx-cap"><b>圖上文字｜成分</b><p data-copy-id="copy-023" data-copy-label="成分">想吃的，</p><p data-copy-id="copy-024" data-copy-label="成分">就是膠原蛋白本身</p><p data-copy-id="copy-025" data-copy-label="成分">成分只有水解膠原蛋白</p><p data-copy-id="copy-026" data-copy-label="成分">單方・無添加</p><p data-copy-id="copy-027" data-copy-label="成分">糖 0</p><p data-copy-id="copy-028" data-copy-label="成分">脂肪 0</p><p data-copy-id="copy-029" data-copy-label="成分">碳水化合物 0</p><p data-copy-id="copy-030" data-copy-label="成分">牛來源</p></figcaption></figure>
+<figure class="cx-sec"><img src="img/sec/f5_numbers.jpg" alt="份量算給你看5 克每天，原料建議的份量60 天" width="1080" height="1350" loading="lazy"><figcaption class="cx-cap"><b>圖上文字｜份量</b><p data-copy-id="copy-031" data-copy-label="份量">份量算給你看</p><p data-copy-id="copy-032" data-copy-label="份量">5 克</p><p data-copy-id="copy-033" data-copy-label="份量">每天，原料建議的份量</p><p data-copy-id="copy-034" data-copy-label="份量">60 天</p><p data-copy-id="copy-035" data-copy-label="份量">一包 300 克</p><p data-copy-id="copy-036" data-copy-label="份量">約 33 元</p><p data-copy-id="copy-037" data-copy-label="份量">每天，NT$2,000 ÷ 60 天</p></figcaption></figure>
+<figure class="cx-sec"><img src="img/sec/f6_how.jpg" alt="它是粉，不用多吞一顆早上那杯就可以咖啡、豆漿、牛奶、燕麥飲都能加冷熱飲都可以" width="1080" height="1350" loading="lazy"><figcaption class="cx-cap"><b>圖上文字｜怎麼吃</b><p data-copy-id="copy-038" data-copy-label="怎麼吃">它是粉，不用多吞一顆</p><p data-copy-id="copy-039" data-copy-label="怎麼吃">早上那杯就可以</p><p data-copy-id="copy-040" data-copy-label="怎麼吃">咖啡、豆漿、牛奶、燕麥飲都能加</p><p data-copy-id="copy-041" data-copy-label="怎麼吃">冷熱飲都可以</p><p data-copy-id="copy-042" data-copy-label="怎麼吃">熱水不超過 50 度</p><p data-copy-id="copy-043" data-copy-label="怎麼吃">無色無味、好溶解</p></figcaption></figure>
+<figure class="cx-sec"><img src="img/sec/f7_parents.jpg" alt="替爸媽挑之前，先看三件事有沒有慢性病、正在吃藥？有的話，先問醫師或藥師每天做不做得到？" width="1080" height="1350" loading="lazy"><figcaption class="cx-cap"><b>圖上文字｜替爸媽挑</b><p data-copy-id="copy-044" data-copy-label="替爸媽挑">替爸媽挑之前，先看三件事</p><p data-copy-id="copy-045" data-copy-label="替爸媽挑">有沒有慢性病、正在吃藥？</p><p data-copy-id="copy-046" data-copy-label="替爸媽挑">有的話，先問醫師或藥師</p><p data-copy-id="copy-047" data-copy-label="替爸媽挑">每天做不做得到？</p><p data-copy-id="copy-048" data-copy-label="替爸媽挑">選爸媽每天做得到的形式</p><p data-copy-id="copy-049" data-copy-label="替爸媽挑">成分、份量、原料來源</p><p data-copy-id="copy-050" data-copy-label="替爸媽挑">富特固</p><p data-copy-id="copy-051" data-copy-label="替爸媽挑">水解膠原蛋白</p><p data-copy-id="copy-052" data-copy-label="替爸媽挑">每天 5 克</p><p data-copy-id="copy-053" data-copy-label="替爸媽挑">德國 GELITA FORTIGEL®</p><p data-copy-id="copy-054" data-copy-label="替爸媽挑">牛來源</p></figcaption></figure>
+<section class="cx-band cx-buy" id="buy"><h2 data-copy-id="copy-055" data-copy-label="選購">選一個開始</h2><p class="cx-lead" data-copy-id="copy-056" data-copy-label="選購">富特固 FORTIGEL® 單方膠原胜肽</p><div class="cx-cards"><a class="cx-card" href="https://www.chiuis.com/products/gelita-fortigel-20g"><img src="img/p_f20.webp" alt="富特固 體驗組" loading="lazy"><div class="cx-body"><span class="cx-tag" data-copy-id="copy-057" data-copy-label="選購">體驗組</span><h3 data-copy-id="copy-058" data-copy-label="選購">FORTIGEL® 20g</h3><div class="cx-price"><span data-copy-id="copy-059" data-copy-label="選購">NT$200</span><s>NT$350</s></div><p data-copy-id="copy-060" data-copy-label="選購">想先試試能不能每天加進早上那杯</p><span class="cx-btn" data-copy-id="copy-061" data-copy-label="選購">去買</span></div></a><a class="cx-card" href="https://www.chiuis.com/products/gelita-fortigel"><img src="img/p_f300.webp" alt="富特固 單包" loading="lazy"><div class="cx-body"><span class="cx-tag" data-copy-id="copy-062" data-copy-label="選購">單包</span><h3 data-copy-id="copy-063" data-copy-label="選購">FORTIGEL® 300g</h3><div class="cx-price"><span data-copy-id="copy-064" data-copy-label="選購">NT$2,000</span><s>NT$3,600</s></div><p data-copy-id="copy-065" data-copy-label="選購">一包 60 天，每天約 33 元</p><span class="cx-btn" data-copy-id="copy-066" data-copy-label="選購">去買</span></div></a><a class="cx-card" href="https://www.chiuis.com/products/gelita-fortigel-900g"><img src="img/p_f900.webp" alt="富特固 三入組" loading="lazy"><div class="cx-body"><span class="cx-tag" data-copy-id="copy-067" data-copy-label="選購">三入組</span><h3 data-copy-id="copy-068" data-copy-label="選購">FORTIGEL® 300g × 3</h3><div class="cx-price"><span data-copy-id="copy-069" data-copy-label="選購">NT$3,600</span><s>NT$10,800</s></div><p data-copy-id="copy-070" data-copy-label="選購">一次備好三包</p><span class="cx-btn" data-copy-id="copy-071" data-copy-label="選購">去買</span></div></a></div></section>
+<section class="cx-band cx-faq"><h2 data-copy-id="copy-072" data-copy-label="常見問題">常見問題</h2><details open><summary data-copy-id="copy-073" data-copy-label="常見問題">一天吃多少？</summary><p data-copy-id="copy-074" data-copy-label="常見問題">每天 5 克，是原料建議的份量。一包 300 克可以吃 60 天。</p></details><details open><summary data-copy-id="copy-075" data-copy-label="常見問題">什麼時候吃？可以加咖啡嗎？</summary><p data-copy-id="copy-076" data-copy-label="常見問題">每天同一個時間吃，比較不容易忘。早上那杯咖啡、豆漿、牛奶、燕麥飲都可以加，冰的也可以；熱水不超過 50 度。</p></details><details open><summary data-copy-id="copy-077" data-copy-label="常見問題">是什麼來源？</summary><p data-copy-id="copy-078" data-copy-label="常見問題">牛來源，原料是德國 GELITA 的 FORTIGEL® 專利膠原胜肽。</p></details><details open><summary data-copy-id="copy-079" data-copy-label="常見問題">誰要先問醫師？</summary><p data-copy-id="copy-080" data-copy-label="常見問題">孕婦、哺乳中、正在服藥的人，請先問醫師。</p></details></section>
+<section class="cx-band cx-read"><h2 data-copy-id="copy-081" data-copy-label="延伸閱讀">延伸閱讀</h2><div class="cx-arts"><a class="cx-art" href="https://www.chiuis.com/blog/posts/uc-ii-glucosamine-fortigel"><img src="img/art_B2.jpg" alt="" loading="lazy"><span data-copy-id="copy-082" data-copy-label="延伸閱讀">UC-II、葡萄糖胺、FORTIGEL 差在哪？三種常見成分一次看懂</span></a><a class="cx-art" href="https://www.chiuis.com/blog/posts/collagen-calcium"><img src="img/art_A2.jpg" alt="" loading="lazy"><span data-copy-id="copy-083" data-copy-label="延伸閱讀">膠原蛋白有鈣嗎？骨頭和膝蓋是兩件事</span></a></div></section>
+<p class="cx-warn" data-copy-id="copy-084" data-copy-label="警語">孕婦、哺乳中、正在服藥的人，請先問醫師。本產品不能治療、矯正任何疾病。</p>
+<footer class="cx-foot">官網頁尾（示意）｜商品卡連到官網現有商品頁</footer>
+</main></body></html>
